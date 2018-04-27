@@ -14,6 +14,7 @@ import java.util.List;
 public class CollectionTest {
 
     public static void main(String[] args) {
+        
         List<Integer> list = Lists.newArrayList(1,2,3);
         List<Integer> unmodifyList = Collections.unmodifiableList(list);
         System.out.println(unmodifyList);
